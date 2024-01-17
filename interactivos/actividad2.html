@@ -2,20 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Actividad 2</title>
 </head>
 <body>
-    <label>¿que esmarphone buscas?
-        <input type="text" list="smarphones" name="smarphones-1">
-    </label>
-    <select>
-        <datalist id="smarphones">
-            <option value="s23">samsung s23</option>
-            <option value="nokia">nokia</option>
-            <option value="alcatel">alcatel</option>
-            <option value="tcl">tcl</option>
-    </datalist>
+    
+    <h1>buscador de celulares</h1>
+    <label for="marca"> ¿que marca de calular busca? </label>
+    <input type="text" id="marcas" list="marca">
+    <datalist id="marca">
+    <select id="marca">
+        <option value="samsumg23"></option>
+        <option value="nokia"></option>
+        <option value="tcl"></option>
+        <option value="apple"></option>
+        <option value="xiomi"></option>
     </select>
+    </datalist><br>
+    <label for="precios">rango de precios</label>
+    <select id="precios">
+        <option value="#" disabled selected>¿que precio buscas?</option>
+        <option value="10-20">10-20</option>
+        <option value="30-40">30-40</option>
+        <option value="50-60">50-60</option>
+    </select>
+
 </body>
 </html>
