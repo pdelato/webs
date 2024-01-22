@@ -1,0 +1,3 @@
+¿De que color es el texto? ¿Por qué?
+el texto es de color amarillo, es porque se sombrea de esa manera para reconocer los diferentes lugares
+o sitios donde estamos escribiendo y para ver donde va a el codigo
